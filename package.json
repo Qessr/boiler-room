@@ -1,0 +1,20 @@
+{
+  "name": "aterraform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf build && tsc",
+    "deploy": "npm run build && sls deploy", 
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node16": "^16.1.0",
+    "@types/jest": "^29.5.3",
+    "jest": "^29.6.2",
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2"
+  }
+}

@@ -1,0 +1,11 @@
+# NPM and Node.js
+node_modules
+
+# TypeScript
+build
+
+# Visual Studio Code
+.vscode
+
+# MacOS
+.DS_Store
